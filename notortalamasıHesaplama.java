@@ -16,7 +16,7 @@ public class notortalamasıHesaplama {
     String girilenKullaniciAdi = oku.nextLine();
     System.out.print("Parola: ");
     int girilenParola = oku.nextInt();
-    oku.nextLine(); // Tamponu temizle
+    oku.nextLine(); 
 
     if (kullaniciAdi.equals(girilenKullaniciAdi) && girilenParola == parola) // String ifadelerde karşılaştırma yapılırken equals kullanılır.
     {
